@@ -1,0 +1,28 @@
+html {
+  text-size-adjust: 100%;
+}
+body {
+  background-image: url("images/missions_bg_image.jpg");
+  margin: 2em;
+  font: 16px;
+  font-family: sans-serif;
+}
+h1 {
+  font-family: monospace;
+  font-size: 3em;
+  text-align: center;
+  color: #3cb11f;
+  margin: 3em;
+}
+p {
+  color: rgb(58, 153, 44);
+  font-family: sans-serif;
+  font: 2em;
+  position: absolute;
+	//font-size: 350%;
+	//font-weight: bold;
+	//text-align: justify;
+	//overflow: hidden;
+	//transform-origin: 50% 100%;
+	//transform: perspective(300px) rotateX(90deg);
+}
