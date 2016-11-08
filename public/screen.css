@@ -1,28 +1,46 @@
 html {
-  text-size-adjust: 100%;
+  //text-size-adjust: 100%;
 }
+
+.title {
+  height: relative;
+  background-color: rgba(#00ff03);
+  position: center;
+  width: auto;
+  border: 8px double;
+  border-color:
+  padding: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #bef5ed;
+  font-size: 100%;
+}
+
+.main {
+  height: relative;
+  position: center;
+  width: auto;
+  padding: 2em;
+  margin-left: 4em;
+  margin-right: auto;
+  color: #bef5ed;
+  //font-size: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
 body {
   background-image: url("images/missions_bg_image.jpg");
-  margin: 2em;
-  font: 16px;
-  font-family: sans-serif;
-}
+  margin-left: 4em;
+  margin-right: 4em;
+  }
+
 h1 {
-  font-family: monospace;
-  font-size: 3em;
   text-align: center;
-  color: #3cb11f;
-  margin: 3em;
+  margin: 2em;
 }
+
 p {
-  color: rgb(58, 153, 44);
-  font-family: sans-serif;
-  font: 2em;
-  position: absolute;
-	//font-size: 350%;
-	//font-weight: bold;
-	//text-align: justify;
-	//overflow: hidden;
-	//transform-origin: 50% 100%;
-	//transform: perspective(300px) rotateX(90deg);
+  color: #bef5ed;
+  font: 3em;
 }
